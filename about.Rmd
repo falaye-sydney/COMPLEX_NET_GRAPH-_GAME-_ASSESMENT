@@ -1,10 +1,61 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "Adeyinka  Glows"
+image: "MyImage.png"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:falayeadeyinka@outlook.com"
+output:
+  postcards::onofre
+  
+site: distill::distill_website
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+require(bookdown)
+require(janitor)
+require(igraph)
+require(dplyr)
+require(readr)
+require(ggplot2)
+require(scales)
+require(ggpubr)
+require(tidyr)
+require(kableExtra)
+require(sna)
+require(networkDynamic)
+require(ndtv)
+require(networkR)
+require(networkD3)
+require(network)
+require(mosaic)
+require(gifski)
+require(rmarkdown)
 ```
+
+```{css echo=FALSE}
+# body { background-color:steelblue;}
+```
+
+I am a data analytics enthusiast living in the  Baulkham Hill Area Sydney, Australia. I love using data wrangling, data analysis and data visualization to answer question of public interest as well as to tell full story about events and processes by leveraging on granular detail  to target   strategic objectives and improve outcomes.
+Currently I am higher degree candidate in the University of Sydney. I love talking about football,community and people, politics and policy,live and livelihood,crime and causal inference.
+
+
+```{r}
+knitr:::include_graphics("R.gif")
+```
+
+<img src="f1.gif" width="800" height="800" background-color="powderblue">
+
+<img src="RLOGOMIKE.gif" width="1200" height="900">
+
+
+
+
+
 

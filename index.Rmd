@@ -36,9 +36,9 @@ require(mosaic)
 
 <h4 style="text-align:center;" >Dynamical Behavior of scale free network of Agents arriving and deciding whether to play defection <em style="color:red;">D</em> or cooperation <em style="color:yellow;">C</em> based on prisoner Dilemma incentive structure <h4/>
 
-<img src="~/Desktop/TASKFOLDER/MULTIPLENETDATA/frame.gif" style="background-color:powderblue;color:Tomato;width:1200;height=900">
+<img src="~/Desktop/TASKFOLDER/MULTIPLENETDATA/frame.gif" style="background-color:powderblue;color:Tomato;width:700;height=600">
 
-<img src="~/Desktop/TASKFOLDER/MULTIPLENETDATA/R.gif" style="background-color:powderblue;color:Tomato;width:1200;height=900;">
+<img src="~/Desktop/TASKFOLDER/MULTIPLENETDATA/R.gif" style="background-color:powderblue;color:Tomato;width:700;height=600;">
 
 
 ```{r, animation.hook='gifski', dev='png', interval=0.2}
@@ -49,7 +49,7 @@ plot(rnorm(10,5,1),rnorm(10,5,1),col="gold",col.main="white",main="Animation Hoo
 ```
 
 
- <img src="~/Desktop/COMPLEX_NETWORK_GAME_THEORY_WEBSITE/RLOGOMIKE.gif" width="1200" height="900" background-color="powderblue">
+ <img src="~/Desktop/COMPLEX_NETWORK_GAME_THEORY_WEBSITE/RLOGOMIKE.gif" width="700" height="600" background-color="powderblue">
 
 
 ```{r eval=FALSE, fig.height=5, fig.width=6, include=FALSE}

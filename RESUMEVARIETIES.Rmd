@@ -1,0 +1,98 @@
+---
+title:
+name: "Adeyinka"
+surname: "Falaye" 
+position: "Computer/Data Analytics Scientist"
+address: "Unit 45/21-25 Seven Hills, Baulkham Hills NSW 2153"
+phone: +61 4040 63256
+www: .com
+email: "falayeadeyinka@outlook.com"
+twitter: falaye
+github: falaye-sydney
+linkedin: falaye
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+    #vitae::awesomecv
+    vitae::markdowncv:
+         theme: kjhealy
+    #vitae::latexcv:
+        #theme: classic
+    #vitae::hyndman
+    #vitae::twentyseconds
+ # docname: CV/Resume
+#css:['css/styles.css']
+
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+#library(pillar)
+#require(rlang)
+library(tibble)
+
+```
+
+```{css echo=FALSE}
+# .columns{display:flex;}
+# body{background-color:lightblue}
+# h1{color:red;}  
+# h2{color:forestgreen;}
+
+```
+
+
+   * Australian Permanent Resident
+
+
+## Some fun facts about me
+
+  * I just love the whole process of gathering and interpreting data from a variety of sources using wide rage of tools to help in leveraging on details to target  quality outcomes and visual experience.
+  
+  * For over ten years I have routinely taught dozens of mathematics,statistical computation and computer programming courses at **University level**
+  
+  * I have over 10 plus years of experience with **Data Analysis,Executive data visualization,Machine Learning using R language and Python**.
+  
+  * I  maintain high level of proficient in the use of over **400** essential packages and I have written more  than **20,000**  **lines of  codes** in R  across wide range of application domain data sets from science to  engineering,from health to socioeconomic as well as spatial analysis of data sets of settlements and boundaries .
+ 
+ * I believe in  the power of great team,efficient teamwork,positive thinking,big dream, good habits,hard-work ,reviewing of outcomes and love in the heart in order to achieve institutional/organizational strategic goals in the short, medium and long term .
+
+## Education
+
+```{r echo=FALSE}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "HRD Candidate in the Analysis of Complex System Networks and Strategic Interraction", "2019-Present", " University of Sydney", "Australia",
+  "Master of Computer Science", "2015", "University  of Lagos", "Nigeria",
+  "Bachelor of Mathematics with Computer Science", "2006", "Federal University of technology ", "Nigeria"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Experience
+
+```{r echo=FALSE}
+tibble::tribble(
+  ~Year, ~Type, ~Desc,
+  "Technical", "R Python HTML Javascript PostgreSQL/MySQLObject-oriented design Design and implement database structures", "Over ten years of experience  in data analytics associated with teaching, research and academic publications",
+  "Professional", "Effective communication, Team player,Strong problem solver,Good time management", "Over ten years of experience in Teaching, research and collaboration"
+) %>% 
+  brief_entries(
+    glue::glue("Skill set in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+## Publications
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
+
