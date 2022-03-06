@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-03-06T21:42:35+11:00"
+    },
+    {
+      "path": "index.html",
+      "title": "COMPLEX_NET_GRAPH _GAME _ASSESMENT",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-03-06T21:42:36+11:00"
+    }
+  ],
+  "collections": []
+}
