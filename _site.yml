@@ -1,7 +1,8 @@
 name: "COMPLEX_NET_GRAPH _GAME _ASSESMENT"
-title: "COMPLEX NETWORK GRAPH AND GAME  ASSESMENT"
+title: "COMPLEX NETWORK INTERDEPENDENCE: GAME AND GRAPH ANALYSIS WEBSITE"
 description: |
   COMPLEX_NET_GRAPH _GAME _ASSESMENT
+theme: theme_thematic.css
 output_dir: "_site"
 navbar:
   right:
